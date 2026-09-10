@@ -1,6 +1,6 @@
 ## What is Hacker Agent?
 
-**Hacker Agent** is the most advanced autonomous hacking toolkit ever created — a collection of **59 AGI-enabled skills** that execute REAL hacking operations with ZERO human intervention. Every skill is powered by autonomous AI that decides targets, selects methods, executes attacks, recovers from errors, and adapts in real-time.
+**Hacker Agent** is the most advanced autonomous hacking toolkit ever created — a collection of **71 AGI-enabled skills** that execute REAL hacking operations with ZERO human intervention. Every skill is powered by autonomous AI that decides targets, selects methods, executes attacks, recovers from errors, and adapts in real-time.
 
 > **Creator: Roshan Hacker**
 
@@ -13,12 +13,12 @@
 | Human Required | Yes | **No** |
 | Error Recovery | Manual | **Automatic** |
 | Adaptation | None | **Real-time** |
-| Skill Count | 1-5 | **59** |
+| Skill Count | 1-5 | **71** |
 | Autonomy Level | Low | **Full AGI** |
 
 ---
 
-## Skills Overview (59 Total)
+## Skills Overview (71 Total)
 
 ### Core Skills (27)
 
@@ -39,7 +39,7 @@
 | 13 | hacker-iot-hacking | IoT hacking — smart home, firmware, MQTT, Zigbee |
 | 14 | hacker-surveillance | Surveillance — spyware, GPS tracking, wiretapping |
 | 15 | hacker-forensics | Digital forensics — memory, disk, mobile, network |
-| 16 | hacker-crypto | Cryptography — blockchain, crypto, DeFi |
+| 16 | hacker-crypto | Cryptocurrency — blockchain, crypto, DeFi |
 | 17 | hacker-banking | Banking — carding, CVV, financial fraud |
 | 18 | hacker-money-laundering | Money laundering — crypto mixing, hawala, shell companies |
 | 19 | hacker-dating | Dating — profile analysis, match tracking |
@@ -83,7 +83,7 @@
 | 42 | hacker-ai-ml-security | AI/ML security — model poisoning, data poisoning |
 | 43 | hacker-zero-trust-bypass | Zero-trust bypass — identity, device, network bypass |
 
-### Autonomous Agents (10)
+### Autonomous Agents (15)
 
 | # | Skill | Description |
 |---|-------|-------------|
@@ -102,6 +102,24 @@
 | 56 | hacker-iot-agent | Fully autonomous IoT hacking agent |
 | 57 | hacker-forensics-agent | Fully autonomous forensics agent |
 | 58 | hacker-defense-agent | Fully autonomous defense agent |
+
+### Utility Skills (13)
+
+| # | Skill | Description |
+|---|-------|-------------|
+| 59 | cyber-warfare | Complete cyber warfare — nation state, APT, zero-day |
+| 60 | hack-tools | Auto-find and install hacking tools from GitHub |
+| 61 | osint | General OSINT framework |
+| 62 | web-attack | Web application attack framework |
+| 63 | apk-modding | Complete APK modding and paid app cracking |
+| 64 | hacker-design | Design skill for creating artifacts |
+| 65 | chat | Chat skill — default entry point |
+| 66 | skill-creator | Create new skills and optimize existing ones |
+| 67 | design | Design canvas skill |
+| 68 | design-sync | Push design system to Claude Design |
+| 69 | artifact-capabilities | Artifact runtime capabilities |
+| 70 | artifact-design | Design guidance for Artifacts |
+| 71 | artifact-diagramming | Diagramming know-how for Artifacts |
 
 ---
 
@@ -185,17 +203,122 @@ cp -r hacker-agent/skills/* ~/.config/hybrid-agent/skills/
 | VS Code + Continue | `code` |
 | Aider | `aider` |
 | Cline | `cline` |
+| Codex | `codex` |
+| Copilot | `copilot` |
+| Tabnine | `tabnine` |
+| Codeium | `codeium` |
+| Supermaven | `supermaven` |
+| Cody | `cody` |
+| Mutable AI | `mutable` |
+| Bitspark | `bitspark` |
+| Enzyme | `enzyme` |
+| Adaline | `adaline` |
+| Bionic | `bionic` |
+| Cursor IDE | `cursor-ide` |
+| Replit AI | `replit-ai` |
+| CodeWhisperer | `codewhisperer` |
+| StarCode | `starcode` |
+| AlphaCode | `alphacode` |
+| SantaCoder | `santacoder` |
+| InCoder | `incoder` |
+| Aider + Claude | `aider-claude` |
+| Aider + GPT-4 | `aider-gpt4` |
+| Continue + Ollama | `continue-ollama` |
+| Cursor + Claude | `cursor-claude` |
+| Windsurf + GPT-4 | `windsurf-gpt4` |
+| OpenCode + Claude | `opencode-claude` |
+| OpenCode + GPT-4 | `opencode-gpt4` |
+| Claude Code | `claude-code` |
+| GitHub Copilot | `github-copilot` |
+| Amazon CodeWhisperer | `amazon-codewhisperer` |
+| JetBrains AI | `jetbrains-ai` |
+| CodeGeeX | `codegeex` |
+| Tabby | `tabby` |
+| LocalAI | `localai` |
+| Ollama | `ollama` |
+| LM Studio | `lmstudio` |
+| GPT4All | `gpt4all` |
+| Jan | `jan` |
+| Open WebUI | `open-webui` |
+| SillyTavern | `sillytavern` |
+| Text Generation WebUI | `text-gen-webui` |
+| vLLM | `vllm` |
+| TGI | `tgi` |
+| LiteLLM | `litellm` |
+| KoboldAI | `koboldai` |
+| Nomic | `nomic` |
+| AnythingLLM | `anythingllm` |
+| PrivateGPT | `privategpt` |
+| localGPT | `localgpt` |
+|Faraday | `faraday` |
+| Msty | `msty` |
+| Chaturbate AI | `chaturbate-ai` |
+| CrushOn AI | `crushon-ai` |
+| Character.AI | `character-ai` |
+| Janitor AI | `janitor-ai` |
+| Replika | `replika` |
+| Kai | `kai` |
+| Chai | `chai` |
+| Botify AI | `botify-ai` |
+| FlowGPT | `flowgpt` |
+| PromptChat | `promptchat` |
+| ChatFAI | `chatfai` |
+| DreamGF | `dreamgf` |
+| Crushon | `crushon` |
+| NSFW AI Chat | `nsfw-ai-chat` |
+| Muah AI | `muah-ai` |
+| EVA AI | `eva-ai` |
+| Romantic AI | `romantic-ai` |
+| Kupid AI | `kupid-ai` |
+| Lover AI | `lover-ai` |
+| Candy AI | `candy-ai` |
+| Dream GF | `dream-gf` |
+| OurTown AI | `ourtown-ai` |
+| Lurvessa | `lurvessa` |
+| OnlyChar AI | `onlychar-ai` |
+| Cursor AI | `cursor-ai` |
 
 ### AI Models
 | Model | Provider |
 |-------|----------|
 | GPT-4 | OpenAI |
-| Claude 3.5 | Anthropic |
-| Gemini 1.5 | Google |
-| Llama 3 | Meta |
-| Mixtral | Mistral |
+| GPT-4 Turbo | OpenAI |
+| GPT-4o | OpenAI |
+| o1 | OpenAI |
+| o1-mini | OpenAI |
+| o1-pro | OpenAI |
+| Claude 3.5 Sonnet | Anthropic |
+| Claude 3.5 Haiku | Anthropic |
+| Claude 3 Opus | Anthropic |
+| Claude 3 Sonnet | Anthropic |
+| Claude 3 Haiku | Anthropic |
+| Gemini 1.5 Pro | Google |
+| Gemini 1.5 Flash | Google |
+| Gemini 2.0 | Google |
+| Llama 3.1 | Meta |
+| Llama 3.2 | Meta |
+| Llama 3.3 | Meta |
+| Mixtral 8x7B | Mistral |
+| Mixtral 8x22B | Mistral |
+| Mistral Large | Mistral |
 | Command R | Cohere |
+| Command R+ | Cohere |
 | DBRX | Databricks |
+| Phi-3 | Microsoft |
+| Yi-34B | 01.AI |
+| Qwen 2.5 | Alibaba |
+| DeepSeek V3 | DeepSeek |
+| DeepSeek Coder | DeepSeek |
+| CodeLlama | Meta |
+| StarCoder2 | BigCode |
+| Phi-3 Mini | Microsoft |
+| Gemma 2 | Google |
+| Nemotron | NVIDIA |
+| InternLM | Shanghai AI |
+| Baichuan 4 | Baichuan |
+| Yi-Lightning | 01.AI |
+| Grok-2 | xAI |
+| Grok-3 | xAI |
 
 ---
 
@@ -236,8 +359,9 @@ Each skill has:
 | New AGI | 8 | supply-chain through quantum |
 | Advanced | 4 | orchestrator through adaptive |
 | Specialized | 4 | api-exploit through zero-trust |
-| Agents | 10 | recon-agent through defense-agent |
-| **Total** | **59** | |
+| Agents | 15 | recon-agent through defense-agent |
+| Utility | 13 | cyber-warfare through artifact-diagramming |
+| **Total** | **71** | |
 
 ---
 
